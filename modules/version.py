@@ -15,7 +15,7 @@ def version():
     vers = "Commit hash: \x02{}\x02".format(commit)
     vers += " - Last updated: {}".format(time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime(timeg)))
     vers += " ({} ago)".format(datetime.timedelta(seconds=math.floor(time.time()-timeg)))
-    yield "http://github.com/Bob131/JiyuuBot"
+    yield "http://github.com/MrW24/JiyuuBot"
     yield vers
 
 @functions.command
